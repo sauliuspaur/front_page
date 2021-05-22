@@ -1,0 +1,22 @@
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+#box { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+.profile_foto{
+    width: 100px;
+}
+
+#more{
+    margin: 10px;
+  }
