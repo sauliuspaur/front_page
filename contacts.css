@@ -1,22 +1,62 @@
-
+.section{
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+h1{
+  color: black;
+}
+.welcome{
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+  
+}
 .container{
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 10% auto 0 auto;
+
 }
-.left{
-    width: 50%;
-}
-.right{
-    width: 50%;
-}
-#box { 
-    display: flex;
-    flex-wrap: wrap;
-  }
-.profile_foto{
-    width: 100px;
+.box { 
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#more{
-    margin: 10px;
-  }
+.column1{
+  width: 50%;
+}
+.column2 {
+  width: 50%;
+}
+.immage_wrapper{
+  position: relative;
+}
+#e0b35d3b-637f-4cd2-a9fd-b6e76c92ec56{
+  width: 70%;
+  height:auto;
+  margin: 18px;
+}
+.play{
+position: absolute;
+top: 200px;
+left: 200px;
+z-index: 99;
+color: white;
+
+}
+.input{
+  margin: 10px;
+  width: 60%;
+}
+#submit_button{
+  margin: 10px;
+}
+
+
+.map{
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+
+  @media screen and (max-width: 800px) {
+    .map .contener {
+      width: 20%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  
