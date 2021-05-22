@@ -1,20 +1,19 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+#box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
+#contacts {
+  margin: 10px;
 }
-.left{
-    width: 50%;
-}
-.right{
-    width: 50%;
-}
-#box { 
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-  }
-
-#contacts{
-    margin: 10px;
-  }
