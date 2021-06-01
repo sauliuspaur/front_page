@@ -87,12 +87,12 @@ zoom: 105%;
   padding: 10px;
   text-transform: uppercase;
   color: aliceblue;
-  font-size: 20pt;
+  font-size: 25pt;
 }
 #just_text{
   padding: 10px;
   color: aliceblue;
-  font-size: 10pt;
+  font-size: 15pt;
   justify-content: center;
 }
 #cover_button{
@@ -100,12 +100,16 @@ zoom: 105%;
   display: inline-block;
   padding: 12px;
   color: black;
-  background-color: aliceblue
+  background-color: aliceblue;
+  font-size: 13pt;
+  margin-top: 13px;
+
   }
  
   #cover_button:hover {
     background-color: rgba(0, 0, 0, 0.3);
-    color: white;  
+    color: white;
+    transition-duration: 0.2s;
   }
   .three{
     display: flex;
@@ -114,36 +118,215 @@ zoom: 105%;
     flex-wrap: wrap;
   }
   .block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     font-size: 25px;
-    text-transform: uppercase;
     color: white;
     margin: 10px 15px 10px 15px;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 180px;
-    padding-right: 180px;
-    
+    padding-left: 100px;
+    padding-right: 100px;
+    background-position: center center;
+    background-size:cover
+  }
+  .uppercase{
+    text-transform: uppercase;
   }
   #one{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://newcastlebeach.org/images/vertical-smash-guitar-appearance-3.jpg");
-    background-position: center center;
-    background-size:cover
+
   }
   #two{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://megamusic.blob.core.windows.net/images/0018641_sonor-vintage-series-3-piece-drum-kit-vintage-red-oyster.jpg");
-    background-position: center center;
-    background-size:cover
   }
   #three{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://image.freepik.com/free-photo/retro-old-microphone_88340-1600.jpg");
-    background-position: center center;
-    background-size:cover
+  }
+  hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  
+  .black{
+    background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.5));
+    width: auto;
+    height: auto;
+  }
+  .uzrasai{
+  }
+
+.atsiliepimai{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding-right: 600px;
+  padding-left: 600px;
+  padding-top: 50px;
+  padding-bottom: 300px;
+}
+.container{
+  max-width: 860px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.irasas{
+display: flex;
+flex-direction: column;
+}
+.irasai{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.irasai_left{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.skiltis{
+  margin: 10px;
+}
+.autorius{
+  margin: 10px;
+}
+.date{
+  margin: 10px;
+}
+.views{
+  margin: 10px;
+}
+.comments{
+    margin: 10px;
+}
+.irasai_right{
+  width: 80%;
+}
+.blog_foto{
+}
+.blog_post_summary{
+  margin: 20px;
+}
+#blog_foto1{
+  background-image: url("https://wallpapercave.com/wp/CG1r0mJ.jpg");
+  height: 320px;
+  width: auto;
+  background-size: cover;
+}
+#blog_foto2{
+  background-image: url("https://c.pxhere.com/photos/3d/75/hostile_band_rock_vocals_show_music-1229160.jpg!d");
+  height: 320px;
+  width: auto;
+  background-size: cover;
+}
+
+#blog_foto3{
+  background-image: url("https://www.rockcellarmagazine.com/wp-content/uploads/2014/05/queen-band-black-white.jpg");
+  height: 320px;
+  width: auto;
+  background-size: cover;
+}
+#blog_foto4{
+  background-image: url("https://i.pinimg.com/originals/9f/f1/5b/9ff15b9bd42c0d92ed4cbf29531ea048.jpg");
+  height: 320px;
+  width: auto;
+  background-size: cover;
+}
+.blog_title{
+  font-size: 20pt;
+  margin-top: 10px;
+}
+.blog_record{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.paieska{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.author_name{
+  font-weight: 700;
+}
+.bloger_icons{
+  display: flex;
+  flex-direction: row;
+}
+.blog_icon{
+  margin:10px;
+  width: 20px;
+  height: 20px;
+}
+.antraste{
+  background-color: rgb(235, 241, 246);
+  padding: 10px;
+  margin: 10px;
+}
+.popular_post{
+  display: flex;
+  flex-direction: column;
+}
+.pop_post_img{
+  width: 100px;
+  height: 70px;
+}
+.pop_posts_texts{
+display: flex;
+flex-direction: row;
+}
+.popular_post_text{
+}
+.post_categories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.email_input{
+display: flex;
+flex-direction: row;
+}
+.tag_clouds{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tag{
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+}
+.footer{
+  background-color: #04091e;
+  margin: 20px;
+  color: #fff;
+}
+.footer_content{
+padding: 100px;
+margin: auto;
+width: 1200px;
+display: flex;
+flex-direction: row;
+}
+.footer1{
+  width: 42%;
+  margin: 20px;
+}
+.footer2{
+  width: 42%;
+  margin: 20px;
+}
+.footer3{
+  width: 16%;
+  margin: 20px;
+}
